@@ -1,0 +1,42 @@
+.skills {
+  font-size: 1.2rem;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.skill-list {
+  list-style: none;
+  padding-left: 1rem;
+  margin-top: 1rem;
+}
+
+.skill-list li {
+  margin-bottom: 0.5rem;
+}
+h3 {
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+}
+h3 :hover {
+  color: #555;
+}
+.skill-list li:hover {
+  color: #555;
+  cursor: pointer;
+}
+
+.langs,
+.framework,
+.tools {
+  list-style: none;
+  padding-left: 1rem;
+  margin-top: 0.5rem;
+  display: block;
+}
+
+.langs li,
+.framework li,
+.tools li {
+  margin-bottom: 0.5rem;
+}

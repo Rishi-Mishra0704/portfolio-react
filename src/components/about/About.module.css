@@ -1,0 +1,92 @@
+/* About Container */
+.about-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  background: rgb(106,6,246);
+  background: linear-gradient(120deg,rgb(57, 1, 179)  45%,  rgb(90, 6, 246) 55%);
+  height: 100vh;
+}
+
+/* About Me Section */
+.about-me {
+  flex-basis: 50%;
+  max-width: 800px;
+  padding: 20px;
+  text-align: center;
+}
+
+.about-me h1 {
+  font-size: 36px;
+  margin: 0 0 10px 0;
+}
+
+.about-me h2 {
+  font-size: 24px;
+  margin: 0 0 20px 0;
+}
+
+.about-me p {
+  text-align: left;
+  font-size: 18px;
+  line-height: 1.5;
+  margin: 0 0 20px 0;
+}
+
+/* Socials Section */
+.socials {
+  margin: 40px 0;
+}
+
+.socials h3 {
+  font-size: 24px;
+  margin: 0 0 20px 0;
+}
+
+/* Skills Section */
+.skills {
+  flex-basis: 50%;
+  max-width: 800px;
+  padding: 20px;
+  text-align: center;
+}
+
+.skills h3 {
+  font-size: 24px;
+  margin: 0 0 20px 0;
+}
+
+.skill-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Languages List */
+.langs {
+  list-style: disc;
+  margin: 0 0 20px 0;
+  padding: 0 0 0 20px;
+}
+
+/* Frameworks and Libraries List */
+.framework {
+  list-style: disc;
+  margin: 0 0 20px 0;
+  padding: 0 0 0 20px;
+}
+
+/* Tools List */
+.tools {
+  list-style: disc;
+  margin: 0 0 20px 0;
+  padding: 0 0 0 20px;
+}
+.dropdown-content {
+  display: none;
+}
+
+.dropdown-btn:focus + .dropdown-content,
+.dropdown-btn:hover + .dropdown-content {
+  display: block;
+}

@@ -1,0 +1,36 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  padding-top: 30px;
+}
+
+.span a,
+.navLink {
+  color: #ffffff;
+}
+
+.navItem {
+  margin-right: 20px;
+}
+.span,
+.navList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.navLink {
+  font-size: 24px;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+  position: relative;
+}
+
+.navLink:hover {
+  color: #0dded4;
+  text-shadow: 0 0 10px #0014cc, 0 0 20px #0014cc7f, 0 0 30px #1f0dde7f,
+    0 0 40px #1f0dde7f , 0 0 50px #480dde7f, 0 0 60px #480dde7f;
+}

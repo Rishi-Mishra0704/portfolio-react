@@ -1,0 +1,28 @@
+.social {
+  margin-top: 20px;
+}
+
+.socialul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.socialli {
+  margin: 0 20px;
+  position: relative;
+}
+
+.socialli a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.socialli a:hover {
+  color: #0dded4;
+
+}
